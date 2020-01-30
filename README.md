@@ -12,7 +12,7 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
 ### Description
 
-In this project, you build an app that diplays a scoreboard for an american football game. There will be two buttons for each team - one will increment that team's score by three points (for a "field goal") and the other will increment that team's score by seven points (for a "touchdown" and "extra point"). The css is already done for you. You should focus your efforts on the functionality of the app.
+In this project, you build an app that displays a scoreboard for an american football game. There will be two buttons for each team - one will increment that team's score by three points (for a "field goal") and the other will increment that team's score by seven points (for a "touchdown" and "extra point"). The css is already done for you. You should focus your efforts on the functionality of the app.
 
 ## Project Set Up
 
@@ -38,7 +38,7 @@ Follow these steps for completing your project.
 1. Hold each team's current score in a state value
 2. Render each team's current score that is in state to the DOM.
 3. Be able to click the different buttons to increment the appropriate team's score by the correct amount
-
+er the state values from what 
 ### STEP 1 & 2 - Adding Team Scores to the Component's State
 
 - [ ] Import the `useState` hook
@@ -53,7 +53,7 @@ const [value, setValue] = useState(); // Give these better names, and decide whe
 ### STEP 3 - Render the Scores to the DOM
 
 - [ ] The scores in the JSX are currently hardcoded to 32 points each. Remove the hardcoded values
-- [ ] Render the state values from what we just set up in steps 1 and 2
+- [ ] Rendwe just set up in steps 1 and 2
 - [ ] Play around with different initial values to test if they are rendering on the DOM correctly
 
 ### STEP 4 - Add Click Functionality to Increment the Scores
